@@ -1,0 +1,261 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Microsoft JhengHei", "微軟正黑體";
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+}
+
+a {
+  text-decoration: none
+}
+
+.link-list {
+  display: flex;
+  justify-content: center;
+  background-color: #F6F6F8;
+  padding: 4px 0px 4px 0px;
+}
+
+.link-list ul {
+  width: 1110px;
+  display: flex;
+  justify-content: flex-end;
+}
+
+.link-list li {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+}
+
+.link-list .link-list-fb {
+  color: #4267B2;
+}
+
+.link-list .link-list-twt {
+  color: #1DA1F2;
+}
+
+.link-list a:hover {
+  text-decoration: underline 1px;
+  text-underline-offset: 2px;
+}
+
+.link-list hr {
+  height: 12px;
+  width: 1px;
+  border-width: 0px;
+  background-color: #CCCCCC;
+  margin: 6px 12px 6px 12px;
+}
+
+.menu-container {
+  display: flex;
+  justify-content: space-between;
+  width: 1110px;
+  margin: 0 auto;
+  padding: 18px 12px 22px 0px;
+}
+
+.menu-container h1 a {
+  display: block;
+  width: 150px;
+  height: 36px;
+  text-indent: 101%;
+  white-space: nowrap;
+  overflow: hidden;
+  background-image: url(../Img/logo.png);
+}
+
+.menu-container ul {
+  display: flex;
+  align-items: center;
+  gap: 42px;
+}
+
+.menu-container ul a {
+  display: block;
+  color: #00251A;
+  font-weight: 700;
+  text-align: left;
+}
+
+.menu-container .front-page {
+  text-decoration: underline 4px #00CC99;
+  text-underline-offset: 30px;
+}
+
+.menu-container ul a:hover {
+  color: #00CC99;
+}
+
+.banner {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: stretch;
+  height: 380px;
+  background-image: url(../Img/banner.png);
+}
+
+.banner h2 {
+  display: block;
+  font-size: 36px;
+  font-weight: 700;
+  line-height: 43.2px;
+  white-space: nowrap;
+  overflow: hidden;
+  color: #1E1E1E;
+  background: #FFFFFF26;
+  padding: 27px 0px 26px 498px;
+}
+
+.content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 60px;
+  margin-top: 60px;
+}
+
+.course-info {
+  display: flex;
+  justify-content: space-between;
+  width: 1110px;
+}
+
+.course-info .course-items {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 12px;
+  width: 350px;
+  border-radius: 5px;
+  padding: 20px;
+  box-shadow: 0px 2px 4px 0px #00000029;
+}
+
+.course-info h2 {
+  font-size: 20px;
+  font-weight: 700;
+}
+
+.course-info p {
+  align-self: flex-start;
+}
+
+.course-items ul {
+  align-self: flex-start;
+}
+
+.course-diff {
+  width: 920px;
+}
+
+.course-diff caption {
+  padding-bottom: 24px;
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 28.8px;
+}
+
+.course-diff tr {
+  border-bottom: 1px solid #CCCCCC;
+  border-top: 1px solid #CCCCCC;
+  text-align: left;
+}
+.course-diff tr:hover {
+  background-color: #bdeee1;
+}
+.course-diff th {
+  padding: 6px 0px 6px 17px;
+  width: 190px;
+  font-weight: 700;
+}
+
+.course-diff-items th,
+.course-diff-items td {
+  font-weight: 700;
+}
+
+.course-diff .adv {
+  color: #00CC99;
+  font-weight: 700;
+}
+
+.user-info {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  padding: 36px;
+  background: linear-gradient(180deg, #E4FFF8 0%, #A2DDCE 100%);
+}
+
+.user-info legend {
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 28.8px;
+  text-align: center;
+  margin-bottom: 28px;
+}
+
+.user-info-input {
+  display: flex;
+  gap: 30px;
+}
+
+.user-info-input fieldset {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+.user-info-input textarea{
+  width: 350px;
+  height: 200px;
+  border-radius: 3px;
+  border: 1px #AAAAAA solid;
+}
+.user-info-input input {
+  width: 351px;
+  border-radius: 3px;
+  border: 1px #AAAAAA solid;
+  padding: 7px 10px 7px 10px;
+  margin-bottom: 8px;
+}
+.user-info input[type=submit] {
+  background-color: #00251A;
+  border-radius: 3px;
+  border: 1px #00251A solid;
+  color: #FFFFFF;
+  margin-top: 24px;
+  padding: 10px 64px 10px 64px;
+  line-height: 19.2px;
+  text-align: center;
+}
+.user-info input[type=submit]:hover{
+  cursor: pointer;
+}
+.footer{
+  width: 1110px;
+  margin: 22px auto;
+  display: flex;
+  justify-content: space-between;
+}
+.footer h2 a {
+  display: block;
+  width: 150px;
+  height: 36px;
+  text-indent: 101%;
+  white-space: nowrap;
+  overflow: hidden;
+  background-image: url(../Img/logo.png);
+}
+.footer .contact-info a{
+  color: #00CC99;
+}

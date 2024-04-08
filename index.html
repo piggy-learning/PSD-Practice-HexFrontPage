@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="IE=Edge" />
+  <meta name='description' content='主流前端網站設計的基礎就在六角學院，在這裡不在是填鴨式教學，而是透過實際的範例，瞭解正確的網站開發流程' />
+  <meta property="og:title" content="六角學院,讓您奠定良好的前端基礎" />
+  <meta property="og:description" content="主流前端網站設計的基礎就在六角學院，在這裡不在是填鴨式教學，而是透過實際的範例，瞭解正確的網站開發流程">
+  <meta property="og:type" content="website" />
+  <link rel="stylesheet" href="/CSS/cssreset.css" />
+  <link rel="stylesheet" href="/CSS/styles.css" />
+  <title>HTML課程作業</title>
+</head>
+
+<body>
+  <div class="container">
+    <div class="header">
+      <nav class="link-list">
+        <ul>
+          <li><img src="/Img/facebookIcon.png" alt="facebook"><a class="link-list-fb" href="#">粉絲團</a></li>
+          <hr>
+          <li><img src="/Img/twitterIcon.png" alt="twitter"><a class="link-list-twt" href="#">追隨我們</a></li>
+        </ul>
+      </nav>
+      <nav class="menu-container">
+        <h1><a href="#">HexSchool 六角學院</a></h1>
+        <ul>
+          <li><a class="front-page" href="#">首頁</a></li>
+          <li><a class="product-intro" href="#">產品介紹</a></li>
+          <li><a class="contact-us" href="#">聯絡我們</a></li>
+        </ul>
+      </nav>
+      <div class="banner">
+        <div class="slogan">
+          <h2>六角學院<br>讓您奠定良好的前端基礎</h2>
+        </div>
+      </div>
+    </div>
+    <div class="content">
+      <ul class="course-info">
+        <li class="course-items">
+          <img src="Img/html.png" alt="html5基礎教學">
+          <h2>Html 5基礎教學</h2>
+          <p>主流前端網站設計的基礎就在六角學院，在這裡不在是填鴨式教學，而是透過實際的範例，瞭解正確的網站開發流程，講師均具有業界開發經驗，讓學員學習業界主流的開發方法。</p>
+        </li>
+        <li class="course-items">
+          <img src="Img/rwd.png" alt=">響應式網站設計">
+          <h2>響應式網站設計</h2>
+          <p>響應式網站設計 (Responsive web design)，目前大多使用者均是以手機瀏覽的情況下，響應式網站已經是必備的。六角學院將會提供業界響應式開發方法，讓學生瞭解行動版開發技巧。</p>
+        </li>
+        <li class="course-items">
+          <img src="Img/jQuery.png" alt="jQuery實戰教學">
+          <h2>jQuery 實戰教學</h2>
+          <ul>
+            本課程有以下特色：
+            <li>．瞭解變數的使用方法</li>
+            <li>．學習並操作DOM</li>
+            <li>．學習基本數學運算方法</li>
+            <li>．套件的操作及運用</li>
+          </ul>
+        </li>
+      </ul>
+      <table class="course-diff">
+        <caption>線上課程及實體課程的差異</caption>
+        <tr class="course-diff-items">
+          <th>項目</th>
+          <td>六角學院線上課程</td>
+          <td>一般線上課程</td>
+          <td>實體課程</td>
+        </tr>
+        <tr>
+          <th>費用</th>
+          <td class="adv">較低</td>
+          <td class="adv">較低</td>
+          <td>較高</td>
+        </tr>
+        <tr>
+          <th>學習效果</th>
+          <td>一般</td>
+          <td class="adv">較低</td>
+          <td class="adv">很好</td>
+        </tr>
+        <tr>
+          <th>Code Review</th>
+          <td class="adv">有</td>
+          <td>無</td>
+          <td>不一定</td>
+        </tr>
+        <tr>
+          <th>課程更新速度</th>
+          <td class="adv">普通</td>
+          <td class="adv">普通</td>
+          <td>較慢</td>
+        </tr>
+        <tr>
+          <th>多次學習</th>
+          <td class="adv">可</td>
+          <td>可</td>
+          <td>不可</td>
+        </tr>
+        <tr>
+          <th>字幕</th>
+          <td class="adv">有</td>
+          <td>不一定</td>
+          <td>板書</td>
+        </tr>
+      </table>
+      <form action="index.html" class="user-info">
+        <legend>對我們課程有興趣嗎？<br />歡迎留下您的資料</legend>
+        <div class="user-info-input">
+          <fieldset>
+            <label for="name">姓名</label>
+            <input type="text" id="name" name="name" placeholder="六角講師">
+            <label for="tel">電話</label>
+            <input type="text" id="tel" name="tel" placeholder="0987654321">
+            <label for="email">信箱</label>
+            <input type="text" id="email" name="email" placeholder="example@hexschool.com">
+          </fieldset>
+          <fieldset>
+            <label for="note">備註</label>
+            <textarea name="note" id="note"></textarea>
+          </fieldset>
+        </div>
+        <input type="submit" value="送出">
+      </form>
+    </div>
+    <div class="footer">
+      <h2><a href="#">HexSchool 六角學院</a></h2>
+      <div class="contact-info">
+        <p>聯絡我們：<a href="mailto:service@hexschool.com">service@hexschool.com</a></p>
+        <p>電話：<a href="tel:+886-0987654321">0987654321</a></p>
+      </div>
+    </div>
+  </div>
+</body>
+
+</html>
