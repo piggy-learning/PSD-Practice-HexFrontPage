@@ -11,9 +11,11 @@
   <meta property="og:type" content="website" />
   <link rel="stylesheet" href="CSS/cssreset.css" />
   <link rel="stylesheet" href="CSS/styles.css" />
+  <script src="https://code.jquery.com/jquery-2.2.4.min.js"
+  integrity="sha256-BbhdlvQf/xTY9gja0Dq3HiwQF8LaCRTXxZKRutelT44=" crossorigin="anonymous"></script>
+  <script src="js/all.js"></script>
   <title>HTML課程作業</title>
 </head>
-
 <body>
   <div class="container">
     <div class="header">
@@ -27,9 +29,29 @@
       <nav class="menu-container">
         <h1><a href="#">HexSchool 六角學院</a></h1>
         <ul>
-          <li><a class="front-page" href="#">首頁</a></li>
-          <li><a class="product-intro" href="#">產品介紹</a></li>
-          <li><a class="contact-us" href="#">聯絡我們</a></li>
+          <li>
+            <a class="front-page" href="#">首頁</a>
+            <ul>
+              <li><a href="">最新消息</a></li>
+              <li><a href="">關於六角</a></li>
+            </ul>
+          </li>
+          <li>
+            <a class="product-intro" href="#">產品介紹</a>
+            <ul>
+              <li><a href="">Html課程</a></li>
+              <li><a href="">RWD設計</a></li>
+              <li><a href="">jQuery教學</a></li>
+            </ul>
+          </li>
+          <li>
+            <a class="contact-us" href="#">聯絡我們</a>
+            <ul>
+              <li><a href="">人才招募</a></li>
+              <li><a href="">講師邀請</a></li>
+              <li><a href="">聯絡方式</a></li>
+            </ul>
+          </li>
         </ul>
       </nav>
       <div class="banner">

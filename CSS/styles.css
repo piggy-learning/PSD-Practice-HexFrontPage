@@ -1,6 +1,6 @@
 * {
   box-sizing: border-box;
-  outline: 1px black solid ;
+  /*outline: 1px solid black;*/
 }
 
 body {
@@ -13,26 +13,21 @@ body {
 a {
   text-decoration: none
 }
-.container{
-  width: 1900px;
+
+.container {
+  width: 1110px;
   margin: 0 auto;
 }
+
 .link-list {
   display: flex;
-  justify-content: center;
+  justify-content: flex-end;
   background-color: #F6F6F8;
   padding: 4px 0px 4px 0px;
 }
 
 .link-list ul {
-  width: 1110px;
   display: flex;
-  justify-content: flex-end;
-}
-
-.link-list li {
-  display: flex;
-  align-items: center;
   gap: 5px;
 }
 
@@ -60,12 +55,11 @@ a {
 .menu-container {
   display: flex;
   justify-content: space-between;
-  width: 1110px;
   margin: 0 auto;
-  padding: 18px 12px 22px 0px;
+  padding: 18px 12px 22px 12px;
 }
 
-.menu-container h1 a {
+.menu-container>h1>a {
   display: block;
   width: 150px;
   height: 36px;
@@ -75,27 +69,30 @@ a {
   background-image: url(../Img/logo.png);
 }
 
-.menu-container ul {
+.menu-container>ul {
   display: flex;
   align-items: center;
-  gap: 42px;
+  gap: 22px;
 }
 
-.menu-container ul a {
+.menu-container ul li a {
   display: block;
   color: #00251A;
   font-weight: 700;
   text-align: left;
+  padding: 4px 10px 4px 10px;
 }
 
 .menu-container a:hover {
-  text-decoration: underline 4px #00CC99;
-  text-underline-offset: 30px;
-}
-
-.menu-container ul a:hover {
   color: #00CC99;
 }
+.menu-container>ul>li>ul {
+  display: none;
+  position: absolute;
+  background-color: #FFFFFF;
+  box-shadow: 0px 2px 4px 0px #00000029;
+}
+
 
 .banner {
   display: flex;
@@ -104,13 +101,16 @@ a {
   align-items: stretch;
   height: 380px;
   background-image: url(../Img/banner.png);
+  background-position: center;
 }
-.slogan{
+
+.slogan {
   background: #FFFFFF26;
   height: 140px;
   position: relative;
   padding: 27px 0px 26px 0px;
 }
+
 .banner h2 {
   font-size: 36px;
   font-weight: 700;
@@ -119,7 +119,7 @@ a {
   overflow: hidden;
   color: #1E1E1E;
   position: absolute;
-  left: 498px;
+  left: 98px;
 }
 
 .content {
@@ -149,7 +149,7 @@ a {
 .course-info h2 {
   font-size: 20px;
   font-weight: 700;
-  margin:12px;
+  margin: 12px;
 }
 
 .course-info p {
@@ -176,14 +176,17 @@ a {
   border-top: 1px solid #CCCCCC;
   text-align: left;
 }
+
 .course-diff tr:hover {
   background-color: #bdeee1;
 }
+
 .course-diff th {
   padding: 6px 0px 6px 17px;
   width: 190px;
   font-weight: 700;
 }
+
 .course-diff td {
   padding: 6px 0px 6px 17px;
   width: 190px;
@@ -227,12 +230,14 @@ a {
   flex-direction: column;
   gap: 8px;
 }
-.user-info-input textarea{
+
+.user-info-input textarea {
   width: 350px;
   height: 200px;
   border-radius: 3px;
   border: 1px #AAAAAA solid;
 }
+
 .user-info-input input {
   width: 351px;
   border-radius: 3px;
@@ -240,6 +245,7 @@ a {
   padding: 7px 10px 7px 10px;
   margin-bottom: 8px;
 }
+
 .user-info input[type=submit] {
   background-color: #00251A;
   border-radius: 3px;
@@ -250,15 +256,18 @@ a {
   line-height: 19.2px;
   text-align: center;
 }
-.user-info input[type=submit]:hover{
+
+.user-info input[type=submit]:hover {
   cursor: pointer;
 }
-.footer{
+
+.footer {
   width: 1110px;
   margin: 22px auto;
   display: flex;
   justify-content: space-between;
 }
+
 .footer h2 a {
   display: block;
   width: 150px;
@@ -268,6 +277,7 @@ a {
   overflow: hidden;
   background-image: url(../Img/logo.png);
 }
-.footer .contact-info a{
+
+.footer .contact-info a {
   color: #00CC99;
 }
