@@ -281,3 +281,21 @@ a {
 .footer .contact-info a {
   color: #00CC99;
 }
+.swiper {
+  width: 600px;
+  height: 300px;
+}
+.goTop{
+  display: block;
+  position: fixed;
+  width: 100px;
+  height: 100px;
+  border-radius: 50px;
+  text-align: center;
+  line-height: 100px;
+  right: 30px;
+  bottom: 30px;
+  font-size: 32px;
+  background-color: #00CC99;
+  color: #FFFFFF;
+}
